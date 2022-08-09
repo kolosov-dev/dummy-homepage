@@ -277,9 +277,14 @@ margin-top: 10px;
 
   .topics {
     display: block;
-    min-width: 180px;
+    width: 150px;
     height: 555px;
-    margin: 29px auto auto auto;
+    margin: 29px auto auto 30px;
+}
+
+  .topic {
+    width: 150px;
+    min-width: none;
 }
 
  }
