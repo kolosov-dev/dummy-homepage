@@ -10,7 +10,7 @@
       <a-menu
         v-model:selectedKeys="selectedKeys"
         mode="horizontal"
-        :style="{color: '#000', lineHeight: '80px', fontWeight: 300}"
+        :style="{color: '#000', lineHeight: '30px', fontWeight: 400, 'font-size': '13px',  'margin-top': '22px', 'border': 'none'}"
       >
         <a-menu-item key="1">Main page</a-menu-item>
         <a-menu-item key="2">About</a-menu-item>
@@ -20,10 +20,6 @@
 
         <Col xs={24} xl={8} style="margin-left: auto; order: 2;">
        <div style="float:right; color:#000; margin-top: 8px;">
-          <div style="float: left; margin-right: 15px;">
-            <a-button type="dashed" ghost>Resume</a-button>
-          </div>
-
           <div class="social" style="float: left; font-size: 24px;">
             <a href="https://www.linkedin.com/in/pixl4tech/"><linkedin-filled /></a>
             <a href="https://github.com/pixl4tech"><github-filled /></a>
@@ -38,7 +34,7 @@
 
      </Row>
     </a-layout-header>
-    <a-layout-content :style="{ background: '#45207E'}">
+    <a-layout-content>
       <HelloWorld />
     </a-layout-content>
     <a-layout-footer style="text-align: left; min-height: 60px; height:auto; font-size:13px; padding: 20px 45px 0px 50px">
@@ -94,6 +90,11 @@ export default {
 
 </script>
 <style>
+html,body{
+  font-family: 'Montserrat', sans-serif !important;
+
+}
+
 
 .social a {
   color: #000;
