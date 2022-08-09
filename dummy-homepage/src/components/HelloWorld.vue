@@ -279,7 +279,8 @@ margin-top: 10px;
     display: block;
     width: 150px;
     height: 555px;
-    margin: 29px auto auto 30px;
+    min-width: 150px;
+    margin: 29px auto auto 14%;
 }
 
   .topic {
