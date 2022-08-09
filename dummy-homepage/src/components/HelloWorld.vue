@@ -272,4 +272,17 @@ margin-top: 10px;
     
         }
 
+
+ @media screen and (max-width: 700px) {
+
+  .topics {
+    display: block;
+    min-width: 300px;
+    height: 318px;
+    margin: 29px auto 10px -12%;
+}
+
+ }
+
+
 </style>
