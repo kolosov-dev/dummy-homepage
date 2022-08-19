@@ -154,7 +154,7 @@ html,body{
 .ant-btn.ant-btn-background-ghost {
     color: #44207e !important;
     border-color: #44207e !important;
-    border-radius: 20px;
+    border-radius: 22px;
     font-size: 13px;
 }
 
